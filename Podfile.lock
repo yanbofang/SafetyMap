@@ -1,5 +1,4 @@
 PODS:
-<<<<<<< HEAD
   - AWSAutoScaling (2.4.10):
     - AWSCore (= 2.4.10)
   - AWSCloudWatch (2.4.10):
@@ -76,16 +75,5 @@ SPEC CHECKSUMS:
   AWSSQS: fd946e25e02b0857fd36c8209e04fc22bebac5c6
 
 PODFILE CHECKSUM: 4e79b77f26be804cc82f213d82555b1b2ae5f29b
-=======
-  - ArcGIS-Runtime-SDK-iOS (10.2.5)
-
-DEPENDENCIES:
-  - ArcGIS-Runtime-SDK-iOS
-
-SPEC CHECKSUMS:
-  ArcGIS-Runtime-SDK-iOS: 0d62980b8ed60c1ee8ca292c1c644e74e0e922aa
-
-PODFILE CHECKSUM: 5c12cc7bf85677f092fb2e74fb786b86abd37ab0
->>>>>>> origin/master
 
 COCOAPODS: 1.1.1

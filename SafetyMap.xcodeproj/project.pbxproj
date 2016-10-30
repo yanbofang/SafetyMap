@@ -59,7 +59,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F02CEEE63E4B2D00DA22F9F /* Pods-SafetyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafetyMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		283B15EF1DC4F88800127225 /* SafetyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283B15F21DC4F88800127225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283B15F41DC4F88800127225 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -74,14 +73,9 @@
 		283B16101DC4F88900127225 /* SafetyMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetyMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283B16141DC4F88900127225 /* SafetyMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyMapUITests.swift; sourceTree = "<group>"; };
 		283B16161DC4F88900127225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		5F97FA5B9776998488FE1A60 /* Pods-SafetyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafetyMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap.release.xcconfig"; sourceTree = "<group>"; };
 		686F68956B659332EE3AE45F /* Pods-SafetyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafetyMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		8DAFAA328D1A3718CC5DBD67 /* Pods_SafetyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafetyMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-		C674DD7930F4AE78DD134862 /* libPods-SafetyMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SafetyMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD3ED917FDB2025743E3B4C /* Pods-SafetyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafetyMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +111,8 @@
 				283B16081DC4F88900127225 /* SafetyMapTests */,
 				283B16131DC4F88900127225 /* SafetyMapUITests */,
 				283B15F01DC4F88800127225 /* Products */,
-<<<<<<< HEAD
 				5050E8BD92DCA4D691CC014A /* Pods */,
 				AB326E5992D11B4724630E55 /* Frameworks */,
-=======
-				CC3C5A637AF4259856506BD4 /* Pods */,
-				A6290D17A80F02401A491170 /* Frameworks */,
->>>>>>> origin/master
 			);
 			sourceTree = "<group>";
 		};
@@ -169,7 +158,6 @@
 			path = SafetyMapUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		5050E8BD92DCA4D691CC014A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,23 +173,6 @@
 				8DAFAA328D1A3718CC5DBD67 /* Pods_SafetyMap.framework */,
 			);
 			name = Frameworks;
-=======
-		A6290D17A80F02401A491170 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C674DD7930F4AE78DD134862 /* libPods-SafetyMap.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC3C5A637AF4259856506BD4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1F02CEEE63E4B2D00DA22F9F /* Pods-SafetyMap.debug.xcconfig */,
-				FAD3ED917FDB2025743E3B4C /* Pods-SafetyMap.release.xcconfig */,
-			);
-			name = Pods;
->>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +182,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 283B16191DC4F88900127225 /* Build configuration list for PBXNativeTarget "SafetyMap" */;
 			buildPhases = (
-<<<<<<< HEAD
 				08AD6C1C801854DDD95CBDCD /* [CP] Check Pods Manifest.lock */,
 				283B15EB1DC4F88800127225 /* Sources */,
 				283B15EC1DC4F88800127225 /* Frameworks */,
@@ -220,14 +190,6 @@
 				283B17971DC57A1400127225 /* Embed PlugIns */,
 				B89EB1962D9D6D349D4B2A75 /* [CP] Embed Pods Frameworks */,
 				22A7B50CB5A74A9B466B26A6 /* [CP] Copy Pods Resources */,
-=======
-				BC67FB8DE44CED35AB88C0EC /* [CP] Check Pods Manifest.lock */,
-				283B15EB1DC4F88800127225 /* Sources */,
-				283B15EC1DC4F88800127225 /* Frameworks */,
-				283B15ED1DC4F88800127225 /* Resources */,
-				990D92B24468D701415BAE90 /* [CP] Embed Pods Frameworks */,
-				163736625A3E324F32EFE0C9 /* [CP] Copy Pods Resources */,
->>>>>>> origin/master
 			);
 			buildRules = (
 			);
@@ -286,18 +248,15 @@
 				TargetAttributes = {
 					283B15EE1DC4F88800127225 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2B844QKHM6;
 						ProvisioningStyle = Automatic;
 					};
 					283B16041DC4F88900127225 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2B844QKHM6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 283B15EE1DC4F88800127225;
 					};
 					283B160F1DC4F88900127225 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2B844QKHM6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 283B15EE1DC4F88800127225;
 					};
@@ -351,83 +310,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
 		08AD6C1C801854DDD95CBDCD /* [CP] Check Pods Manifest.lock */ = {
-=======
-		163736625A3E324F32EFE0C9 /* [CP] Copy Pods Resources */ = {
->>>>>>> origin/master
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-<<<<<<< HEAD
 			name = "[CP] Check Pods Manifest.lock";
-=======
-			name = "[CP] Copy Pods Resources";
->>>>>>> origin/master
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		22A7B50CB5A74A9B466B26A6 /* [CP] Copy Pods Resources */ = {
-=======
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		990D92B24468D701415BAE90 /* [CP] Embed Pods Frameworks */ = {
->>>>>>> origin/master
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-<<<<<<< HEAD
 			name = "[CP] Copy Pods Resources";
-=======
-			name = "[CP] Embed Pods Frameworks";
->>>>>>> origin/master
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B89EB1962D9D6D349D4B2A75 /* [CP] Embed Pods Frameworks */ = {
-=======
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC67FB8DE44CED35AB88C0EC /* [CP] Check Pods Manifest.lock */ = {
->>>>>>> origin/master
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-<<<<<<< HEAD
 			name = "[CP] Embed Pods Frameworks";
-=======
-			name = "[CP] Check Pods Manifest.lock";
->>>>>>> origin/master
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafetyMap/Pods-SafetyMap-frameworks.sh\"\n";
-=======
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
->>>>>>> origin/master
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -589,16 +514,10 @@
 		};
 		283B161A1DC4F88900127225 /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 686F68956B659332EE3AE45F /* Pods-SafetyMap.debug.xcconfig */;
-=======
-			baseConfigurationReference = 1F02CEEE63E4B2D00DA22F9F /* Pods-SafetyMap.debug.xcconfig */;
->>>>>>> origin/master
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2B844QKHM6;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SafetyMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMap;
@@ -609,16 +528,10 @@
 		};
 		283B161B1DC4F88900127225 /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 5F97FA5B9776998488FE1A60 /* Pods-SafetyMap.release.xcconfig */;
-=======
-			baseConfigurationReference = FAD3ED917FDB2025743E3B4C /* Pods-SafetyMap.release.xcconfig */;
->>>>>>> origin/master
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2B844QKHM6;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SafetyMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMap;
@@ -632,7 +545,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2B844QKHM6;
 				INFOPLIST_FILE = SafetyMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMapTests;
@@ -647,7 +559,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2B844QKHM6;
 				INFOPLIST_FILE = SafetyMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMapTests;
@@ -661,7 +572,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2B844QKHM6;
 				INFOPLIST_FILE = SafetyMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMapUITests;
@@ -675,7 +585,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2B844QKHM6;
 				INFOPLIST_FILE = SafetyMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanboFang.SafetyMapUITests;
