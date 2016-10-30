@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
@@ -22,3 +23,8 @@ target :'SafetyMap' do
     pod 'AWSSNS'
     pod 'AWSSQS'
 end
+=======
+target 'SafetyMap' do
+	pod 'ArcGIS-Runtime-SDK-iOS'
+end
+>>>>>>> origin/master

@@ -7,8 +7,11 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+<<<<<<< HEAD
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string></string>
+=======
+>>>>>>> origin/master
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
