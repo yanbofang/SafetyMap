@@ -23,7 +23,7 @@ class FirstViewController: UIViewController, AGSCalloutDelegate, AGSWebMapDelega
         var lng : Double
     }
     
-    var receiver_id: Int = 0 {
+    var receiver_id: Int = 2 {
         didSet {
             downloadData()
         }
@@ -31,7 +31,7 @@ class FirstViewController: UIViewController, AGSCalloutDelegate, AGSWebMapDelega
     var notifications = [Notification]()
     
     func downloadData() {
-        let url = NSURL(string: "http://hoopsapp.netai.net/safe/receiver.php?receiver_id=2" + String(receiver_id))
+        let url = NSURL(string: "http://hoopsapp.netai.net/safe/receiver.php?receiver_id=2")
         let request = URLRequest(url: url as! URL)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -55,6 +55,8 @@ class FirstViewController: UIViewController, AGSCalloutDelegate, AGSWebMapDelega
                         }
                     }
                 }
+                print("=============")
+                print(self.notifications)
             } catch let parseError {
                 print("parsing error: \(parseError)")
                 let responseString = String(data: data, encoding: .utf8)
@@ -66,6 +68,7 @@ class FirstViewController: UIViewController, AGSCalloutDelegate, AGSWebMapDelega
 
     
     override func viewDidLoad() {
+        downloadData()
         super.viewDidLoad()
         self.mapView.callout.delegate = self
         
